@@ -2,3 +2,30 @@
     background: black;
     color: white;
 }
+.mi-navbar {
+    background-color: #1e3a8a;
+}
+
+.mi-navbar .nav-link {
+    color: white !important;
+}
+
+.mi-navbar .nav-link.active {
+    color: white !important;
+}
+
+.mi-navbar .nav-link:hover {
+    color: #c0d4d2 !important;
+}
+
+/* BOTON BUSCAR */
+.mi-navbar .mi-boton {
+    background-color: white;
+    color: #1e3a8a;
+    border: none;
+}
+
+.mi-navbar .mi-boton:hover {
+    background-color: #c0d4d2;
+    color: #1e3a8a;
+}

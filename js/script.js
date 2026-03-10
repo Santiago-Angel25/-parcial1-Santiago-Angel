@@ -1,4 +1,4 @@
-let contador
+let contador = 0
 
 function solicitarServicio() {
 
@@ -24,9 +24,18 @@ function registrar() {
     }
 
 }
-
+    let modoOscuro = false
 document.getElementById("modoBtn").addEventListener("click", function() {
+    if (!modoOscuro) {
+        document.body.classList.add("dark")
+        modoOscuro = true
+        document.getElementById("modoBtn").textContent = "Modo claro"
+    } else {
+        document.body.classList.remove("dark")
+        modoOscuro = false
+        document.getElementById("modoBtn").textContent = "Modo oscuro"
+    }
+    
 
-    document.body.classList.toggle("dark")
 
 })

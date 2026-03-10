@@ -65,5 +65,4 @@ document.getElementById("modoBtn").addEventListener("click", function() {
     
 
 
-})
-
+});
